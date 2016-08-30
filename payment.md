@@ -50,6 +50,7 @@ $attributes = [
     'out_trade_no'     => '1217752501201407033233368018',
     'total_fee'        => 5388,
     'notify_url'       => 'http://xxx.com/order-notify', // 支付结果通知网址，如果不设置则会使用配置里的默认地址
+    'openid'           => '当前用户的openid',          //必填  可通过网页授权获取到当前用户的openid
     // ...
 ];
 
